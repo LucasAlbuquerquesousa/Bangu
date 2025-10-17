@@ -1,4 +1,4 @@
-# Sóbrancelhas
+# Sóbrancelhas - Bangu Shopping
 
 Este é o site oficial da unidade **Sóbrancelhas - Bangu Shopping**, desenvolvido para apresentar os serviços, produtos e informações de contato da loja. O site foi projetado com foco em **design moderno**, **responsividade** e **experiência do usuário**.
 
@@ -65,5 +65,4 @@ A **Sóbrancelhas** é uma das maiores redes de franquias no setor de saúde, be
 ---
 
 **Desenvolvido por Lucas Albuquerque**  
-
 [LinkedIn](https://www.linkedin.com/in/lucas-albuquerque-sousa/) | [GitHub](https://github.com/lucasalbuquerquesousa)
