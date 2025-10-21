@@ -30,8 +30,7 @@
                     <li><a href="#app" class="nav-link">App</a></li>
                     <li><a href="#unidade" class="nav-link">Nossas Unidades</a></li>
                 </ul>
-                <a href="#unidade"
-                    class="btn-whatsapp">
+                <a href="#" onclick="openModal()" class="btn-whatsapp">
                     <i class="fab fa-whatsapp"></i>
                     Fale Conosco
                 </a>
@@ -53,8 +52,7 @@
                     <p>Nossa essência está em cuidar do que realmente importa, com um olhar atento aos padrões mais
                         elevados e ao seu bem-estar.</p>
                     <div class="hero-buttons">
-                        <a href="#unidade"
-                            class="btn btn-primary">
+                        <a href="#" onclick="openModal()" class="btn btn-primary">
                             <i class="fab fa-whatsapp"></i>
                             Agendar Horário
                         </a>
@@ -468,6 +466,30 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal for Fale Conosco -->
+    <div id="contactModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Escolha a Unidade</h2>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Com qual unidade você gostaria de falar?</p>
+                <div class="modal-buttons">
+                    <a href="https://wa.me/5521992293751?text=Olá, gostaria de falar com a unidade Bangu!" class="btn btn-primary modal-btn">
+                        <i class="fab fa-whatsapp"></i> Bangu
+                    </a>
+                    <a href="https://wa.me/5521977601082?text=Olá, gostaria de falar com a unidade Shopping Metropolitano!" class="btn btn-primary modal-btn">
+                        <i class="fab fa-whatsapp"></i> Barra
+                    </a>
+                    <a href="https://wa.me/5521976932241?text=Olá, gostaria de falar com a unidade Nilópolis!" class="btn btn-primary modal-btn">
+                        <i class="fab fa-whatsapp"></i> Nilópolis
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Scroll to top button -->
     <button class="scroll-top" id="scrollTop">

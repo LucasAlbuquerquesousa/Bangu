@@ -276,6 +276,34 @@ document.addEventListener('DOMContentLoaded', function() {
         img.src = src;
     });
 
+    // Modal functions
+    window.openModal = function() {
+        const modal = document.getElementById('contactModal');
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden'; // Prevent scrolling
+    };
+
+    window.closeModal = function() {
+        const modal = document.getElementById('contactModal');
+        modal.classList.remove('active');
+        document.body.style.overflow = ''; // Restore scrolling
+    };
+
+    // Close modal when clicking outside
+    document.addEventListener('click', function(e) {
+        const modal = document.getElementById('contactModal');
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+
+    // Close modal with Escape key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeModal();
+        }
+    });
+
     // Console message
     console.log('%c✨ Sóbrancelhas Bangu Shopping ✨', 'color: #DC143C; font-size: 16px; font-weight: bold;');
     console.log('%cSeu olhar merece este carinho!', 'color: #000; font-size: 12px;');
