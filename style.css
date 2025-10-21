@@ -417,6 +417,16 @@ strong {
     margin-top: 1rem;
 }
 
+.contact-buttons .btn-primary {
+    background: white;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.contact-buttons .btn-primary:hover {
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.8);
+}
+
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
