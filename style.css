@@ -244,7 +244,7 @@ strong {
 /* Hero Section */
 .hero {
     padding: 100px 0 60px;
-    background: url('Hero-Image.jpg') center/cover no-repeat;
+    background: url('./assets/Hero-Image.jpg') center/cover no-repeat;
     position: relative;
 }
 
