@@ -1,4 +1,4 @@
-# Sóbrancelhas - Bangu Shopping
+# Sóbrancelhas
 
 Este é o site oficial da unidade **Sóbrancelhas - Bangu Shopping**, desenvolvido para apresentar os serviços, produtos e informações de contato da loja. O site foi projetado com foco em **design moderno**, **responsividade** e **experiência do usuário**.
 
